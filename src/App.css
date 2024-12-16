@@ -1,0 +1,28 @@
+.app-container,
+.dialog-header,
+.dialog-body,
+.dialog-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dialog-header {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.dialog-footer {
+  text-align: right;
+}
+
+.selected-img {
+  width: 90px;
+  height: 120px;
+}
+
+.img {
+  width: 60px;
+  height: 80px;
+}
